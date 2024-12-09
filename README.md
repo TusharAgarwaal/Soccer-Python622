@@ -4,6 +4,7 @@ Project Proposal:
 FIFA 21 Player Analysis Using Python 
 
 Introduction: 
+
 This project focuses on analyzing player performance and market value using data from FIFA 
 21. Football is a global sport, and understanding player attributes is critical for team managers, 
 analysts, and fans. Using the FIFA 21 dataset, we aim to explore trends in player skills, identify 
@@ -19,10 +20,17 @@ attackers, defenders, and goalkeepers?
 statistics?
 
 Data Description: 
+
 The dataset contains detailed information on FIFA 21 players, including: 
+
 • Personal Details: Name, Age, Nationality, Club, Position. 
+
 • Performance Metrics: Overall rating (OVA), Potential (POT), and Growth. 
+
 • Skill Attributes: Dribbling, Passing, Finishing, Ball Control, etc. 
+
 • Physical Attributes: Acceleration, Speed, Strength, and Stamina. 
+
 • Economic Details: Value, Wage, and Contract Details. 
+
 This diverse dataset provides a solid foundation for analysis and machine learning models. 
