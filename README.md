@@ -34,3 +34,5 @@ The dataset contains detailed information on FIFA 21 players, including:
 • Economic Details: Value, Wage, and Contract Details. 
 
 This diverse dataset provides a solid foundation for analysis and machine learning models. 
+
+FIFA21.ipynb contains the main code, while sdp.py is the code to show Dynamic plot using _Shiny for Python_.
