@@ -16,6 +16,7 @@ def clean_data(data):
     # Normalize text columns
     data['Position'] = data['Position'].str.lower().str.strip()
     data['Nationality'] = data['Nationality'].str.lower().str.strip()
+    data['Club'] = data['Club'].str.lower().str.strip()
     return data
 
 fifa_data = clean_data(fifa_data)
@@ -23,7 +24,7 @@ fifa_data = clean_data(fifa_data)
 # Define UI
 app_ui = ui.page_fluid(
     ui.h2("Scrollable Bar Chart for FIFA Player Analysis"),
-    ui.input_select("x_axis", "Select X-axis", choices=["Position", "Nationality"], selected="Nationality"),
+    ui.input_select("x_axis", "Select X-axis", choices=["Position", "Nationality", "Club"], selected="Club"),
     ui.input_select("y_axis", "Select Y-axis", choices=["OVA", "POT", "Age", "Strength"], selected="OVA"),
     ui.input_slider("top_n", "Show Top N Categories", min=5, max=50, value=10, step=1),
     ui.output_plot("bar_chart")
